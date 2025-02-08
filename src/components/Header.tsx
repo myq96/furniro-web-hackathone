@@ -9,7 +9,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 export default function Header() {
   return (
     <>
-      <div className="Navbar">
+      <div className="navbar">
         <div className="logo ">
 
 

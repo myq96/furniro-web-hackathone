@@ -2,7 +2,7 @@ import Image from "next/image"
 import Dining from "@/Pictures/dining.png"
 import Living from "@/Pictures/living.png" 
 import Bedroom from "@/Pictures/bedroom.png" 
-export default function MainTwo(){
+export default function SubHero(){
 
     return (
         <>

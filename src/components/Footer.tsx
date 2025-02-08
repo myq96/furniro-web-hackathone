@@ -4,7 +4,7 @@ export default function Footer(){
         <footer>
 
         <div className="footer p-5 border-t-2 leading-10  border-gray-300">
-            <div className="w-[14rem]   ">
+            <div className="w-[14rem]  ">
                 <h2 className="font-bold text-[2rem]">Funiro.</h2>
                 <p className="leading-none">400 University Drive Suite 200 Coral Gables,
                 FL 33134 USA</p>
@@ -38,10 +38,10 @@ export default function Footer(){
             </div>
             
         </div>
-        <div  className="para text-center">
+        <div  className="para">
 
             <hr />
-            <p > 2023 furino. All rights reverved</p>
+            <p>2023 furino. All rights reverved</p>
         </div>
         </footer>
         </>

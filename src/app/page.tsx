@@ -1,15 +1,19 @@
-import MainOne from "@/components/MainOne";
+// import Footer from "@/components/Footer";
+// import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import Slides from "@/components/Slides";
-import MainTwo from "@/components/MainTwo";
+import SubHero from "@/components/Subhero";
 
 export default function Home(){
   return (
     <>
-    <MainOne/>
-    <MainTwo/>
+    {/* <Header/> */}
+    <Hero/>
+    <SubHero/>
     <Products/>
     <Slides/>
+    {/* <Footer/> */}
     </>
   )
 }
