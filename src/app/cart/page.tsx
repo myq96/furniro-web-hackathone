@@ -15,8 +15,6 @@ export default function Cart() {
             <h3>cart</h3>
           </div>
         </div>
-        {/* <div> */}
-        {/* </div> */}
       </div>
 
       <div className="">

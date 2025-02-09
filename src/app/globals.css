@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 /* --------------------- NAVBAR ----------------------------- */
-.navbar {
+.Navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
 }
 
-.navbar .head {
+.Navbar .head {
   display: flex;
   /* justify-content: space-between;
   align-items: center; */
   gap: 2rem;
 }
 
-.navbar .icons {
+.Navbar .icons {
   display: flex;
   /* justify-content: space-between;
   align-items: center; */
@@ -25,12 +25,8 @@
 }
 
 /* ---------------------- HERO SECTION ----------------------------------- */
-.heroImage {
-  /* width: 50rem;
-  height: 63rem; */
-}
 
-.heroText {
+.MainOneText {
   width: 34rem;
   /* height: 16rem; */
   position: absolute;
@@ -41,21 +37,18 @@
   line-height: 2rem;
 }
 
-.heroText h6 {
+.MainOneText h6 {
   font-weight: bold;
 }
 
-.heroText h3 {
+.MainOneText h3 {
   font-size: 2.5rem;
   font-weight: bolder;
   color: #b88e2f;
 }
 
-/* .heroText p{
-  line-height: none;
-} */
 
-.heroText .buyBtn {
+.MainOneText .buyBtn {
   background-color: #b88e2f;
   padding: 0.5rem 3rem 0.5rem 3rem;
   color: white;
@@ -190,7 +183,6 @@ footer hr {
 
 footer .para p{
   font-weight: 400;
-  position: absolute;
-  left: 13%;
+  text-align: center;
   padding: 2rem 0rem;
 }
